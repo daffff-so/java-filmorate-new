@@ -30,7 +30,7 @@ public class FilmControllerTest {
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(film)
+                () -> controller.create(film)
         );
     }
 
@@ -57,7 +57,7 @@ public class FilmControllerTest {
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(film)
+                () -> controller.create(film)
         );
     }
 
@@ -89,7 +89,7 @@ public class FilmControllerTest {
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(film)
+                () -> controller.create(film)
         );
     }
 
@@ -115,7 +115,7 @@ public class FilmControllerTest {
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(film)
+                () -> controller.create(film)
         );
     }
 
@@ -129,7 +129,7 @@ public class FilmControllerTest {
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(film)
+                () -> controller.create(film)
         );
     }
 
@@ -143,7 +143,7 @@ public class FilmControllerTest {
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(film)
+                () -> controller.create(film)
         );
     }
 

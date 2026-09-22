@@ -47,7 +47,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
@@ -61,7 +61,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
@@ -75,7 +75,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
@@ -89,7 +89,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
@@ -103,7 +103,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
@@ -117,7 +117,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
@@ -168,7 +168,7 @@ shouldRejectUpdateOfUnknownUser() — неизвестный id → NotFoundExce
 
         assertThrows(
                 ValidationException.class,
-                () ->controller.create(user)
+                () -> controller.create(user)
         );
     }
 
